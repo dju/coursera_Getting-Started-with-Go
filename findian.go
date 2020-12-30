@@ -12,13 +12,13 @@ This assignment is worth a total of 10 points:
 2 points will be given for the second test execution,
 	if the program correctly prints "Not Found!"
 	when a string that does not contain the characters ‘i’, ‘a’, and ‘n’ is entered.
- */
+*/
 /*
 Examples: The program should print “Found!”
 	for the following example entered strings, “ian”, “Ian”, “iuiygaygn”, “I d skd a efju N”.
 The program should print “Not Found!”
 	for the following strings, “ihhhhhn”, “ina”, “xian”.
- */
+*/
 package main
 
 import (
@@ -27,6 +27,7 @@ import (
 	"os"
 	"strings"
 )
+
 func main() {
 	var err error
 	var response, trimResponse string
@@ -37,14 +38,14 @@ func main() {
 	response, err = in.ReadString('\n')
 	// _, err = fmt.Scan(&response)
 	if err != nil {
-		fmt.Printf("Error -->%s<-*\n",err)
+		fmt.Printf("Error -->%s<-*\n", err)
 	} else {
 		trimResponse = strings.ToLower(strings.TrimSpace(response))
 		firstI = strings.IndexByte(trimResponse, 'i')
 		secondA = strings.IndexByte(trimResponse, 'a')
 		thirdN = strings.IndexByte(trimResponse, 'n')
 		//fmt.Printf("response -->%s<--\ntrim_response -->%s<--\nfirst_i %d,second_a %d,third_n %d\n",response, trim_response, first_i, second_a, third_n)
-		if (firstI == 0 ) && (firstI < secondA) && ( secondA < thirdN) {
+		if (firstI == 0) && (firstI < secondA) && (secondA < thirdN) {
 			fmt.Printf("Found!\n")
 		} else {
 			fmt.Printf("Not Found!\n")

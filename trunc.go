@@ -22,7 +22,7 @@ func main() {
 	fmt.Printf("Enter a float: ")
 	_, err = fmt.Scan(&response)
 	if err != nil {
-		fmt.Printf("Error -->%s<-*\n",err)
+		fmt.Printf("Error -->%s<-*\n", err)
 	} else {
 		fmt.Printf("You have entered : %f\n", response)
 		fmt.Printf("Truncated integer: %d\n", int(response))

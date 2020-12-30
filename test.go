@@ -4,7 +4,6 @@ import (
 	"fmt"
 )
 
-
 func main() {
 	var x int
 	var y *int
