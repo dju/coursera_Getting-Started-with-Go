@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7e6a3c6a-4cd2-47d2-b4cd-cad8e7247ae9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/findian.go" beforeDir="false" afterPath="$PROJECT_DIR$/findian.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/helloworld.go" beforeDir="false" afterPath="$PROJECT_DIR$/helloworld.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews/findian (1).go" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/findian (1).go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews/findian.go" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/findian.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reviews/trunc2.go" beforeDir="false" afterPath="$PROJECT_DIR$/reviews/trunc2.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trunc.go" beforeDir="false" afterPath="$PROJECT_DIR$/trunc.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +46,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Go Build.go build slice.go">
+  <component name="RunManager" selected="Go Build.go build tests_week3.go">
     <configuration name="go build findian (1).go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="coursera_Getting Started with Go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -62,11 +55,11 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build findian.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build slice.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="coursera_Getting Started with Go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/findian.go" />
+      <filePath value="$PROJECT_DIR$/reviews/slice.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -78,11 +71,11 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build test.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build tests_week3.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="coursera_Getting Started with Go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/test.go" />
+      <filePath value="$PROJECT_DIR$/tests_week3.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -96,11 +89,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build tests_week3.go" />
+        <item itemvalue="Go Build.go build slice.go (1)" />
         <item itemvalue="Go Build.go build slice.go" />
         <item itemvalue="Go Build.go build findian (1).go" />
         <item itemvalue="Go Build.go build truncate 2.go" />
-        <item itemvalue="Go Build.go build findian.go" />
-        <item itemvalue="Go Build.go build test.go" />
       </list>
     </recent_temporary>
   </component>
