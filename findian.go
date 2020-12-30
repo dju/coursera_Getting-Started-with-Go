@@ -22,15 +22,15 @@ The program should print “Not Found!”
 package main
 
 import (
-	"fmt"
-	"strings"
 	"bufio"
+	"fmt"
 	"os"
+	"strings"
 )
 func main() {
 	var err error
-	var response, trim_response string
-	var first_i, second_a, third_n int
+	var response, trimResponse string
+	var firstI, secondA, thirdN int
 
 	fmt.Printf("Enter your string: ")
 	in := bufio.NewReader(os.Stdin)
@@ -39,12 +39,12 @@ func main() {
 	if err != nil {
 		fmt.Printf("Error -->%s<-*\n",err)
 	} else {
-		trim_response = strings.ToLower(strings.TrimSpace(response))
-		first_i  = strings.IndexByte(trim_response, 'i')
-		second_a = strings.IndexByte(trim_response, 'a')
-		third_n  = strings.IndexByte(trim_response, 'n')
+		trimResponse = strings.ToLower(strings.TrimSpace(response))
+		firstI = strings.IndexByte(trimResponse, 'i')
+		secondA = strings.IndexByte(trimResponse, 'a')
+		thirdN = strings.IndexByte(trimResponse, 'n')
 		//fmt.Printf("response -->%s<--\ntrim_response -->%s<--\nfirst_i %d,second_a %d,third_n %d\n",response, trim_response, first_i, second_a, third_n)
-		if (first_i == 0 ) && (first_i < second_a) && ( second_a < third_n) {
+		if (firstI == 0 ) && (firstI < secondA) && ( secondA < thirdN) {
 			fmt.Printf("Found!\n")
 		} else {
 			fmt.Printf("Not Found!\n")
