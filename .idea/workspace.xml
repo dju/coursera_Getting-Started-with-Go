@@ -46,12 +46,20 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Go Build.go build tests_week3.go">
+  <component name="RunManager" selected="Go Build.go build makejson.go">
     <configuration name="go build findian (1).go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="coursera_Getting Started with Go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/reviews/findian (1).go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build makejson.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="coursera_Getting Started with Go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/makejson.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -79,21 +87,13 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build truncate 2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="coursera_Getting Started with Go" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/reviews/truncate 2.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build makejson.go" />
+        <item itemvalue="Go Build.go build slice.go" />
         <item itemvalue="Go Build.go build tests_week3.go" />
         <item itemvalue="Go Build.go build slice.go (1)" />
-        <item itemvalue="Go Build.go build slice.go" />
         <item itemvalue="Go Build.go build findian (1).go" />
-        <item itemvalue="Go Build.go build truncate 2.go" />
       </list>
     </recent_temporary>
   </component>
