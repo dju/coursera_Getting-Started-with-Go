@@ -46,12 +46,12 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Go Build.go build makejson.go">
-    <configuration name="go build findian (1).go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build read.go">
+    <configuration name="go build makejson.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="coursera_Getting Started with Go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/reviews/findian (1).go" />
+      <filePath value="$PROJECT_DIR$/reviews/makejson.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -63,11 +63,11 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build slice.go (1)" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build read.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="coursera_Getting Started with Go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/reviews/slice.go" />
+      <filePath value="$PROJECT_DIR$/read.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -89,16 +89,26 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build read.go" />
+        <item itemvalue="Go Build.go build makejson.go (1)" />
         <item itemvalue="Go Build.go build makejson.go" />
         <item itemvalue="Go Build.go build slice.go" />
         <item itemvalue="Go Build.go build tests_week3.go" />
-        <item itemvalue="Go Build.go build slice.go (1)" />
-        <item itemvalue="Go Build.go build findian (1).go" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="GoApplicationRunConfiguration">
+        <watch expression="string(contentBytes)" language="go" />
+        <watch expression="contentSlices" language="go" />
+        <watch expression="line" language="go" />
+        <watch expression="peopleSlice" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
